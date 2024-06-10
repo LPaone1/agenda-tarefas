@@ -18,7 +18,7 @@ const exibeTarefas = () => {
         let newDate = new Date(tarefa.dataTarefa);
             let datePtBr = new Intl.DateTimeFormat('pt-BR',{
         dateStyle: 'short',
-        timeZone: 'UTC ',
+        timeZone: 'UTC',
     });
 
     let dataTarefa = datePtBr.format(newDate);
